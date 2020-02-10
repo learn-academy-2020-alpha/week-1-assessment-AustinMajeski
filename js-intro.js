@@ -19,7 +19,7 @@ console.log("\n------------------------------------")
         The Class created here is only for
         colorful text.  It is irrelevant to
         the overall function of the program.
-
+		
 */
 ///  === === === === === === === === === === ===
 ///  === === === === === === === === === === ===
@@ -144,10 +144,10 @@ multiplyByFive(myListTest1)
 
 TextFormat.printNewLines(3)
 TextFormat.addText("  - multiplyByFive:   ").colorText(15).colorBackground(88).broadcast()
-TextFormat.addText("").colorBackground(255).extend(66).broadcast()
-TextFormat.addText(determineBoiling(`  [ ${myNumbers1} ]`),232,255).extend(21).broadcast()
-TextFormat.addText(determineBoiling(`  [ ${myListTest1} ]`),232,255).extend(2).broadcast()
-TextFormat.addText("").colorBackground(255).extend(66).broadcast()
+TextFormat.addText("").colorBackground(255).extend(41).broadcast()
+TextFormat.addText(`  [ ${myNumbers1} ]`,232,255).extend(21).broadcast()
+TextFormat.addText(`  [ ${myListTest1} ]`,232,255).extend(2).broadcast()
+TextFormat.addText("").colorBackground(255).extend(41).broadcast()
 /*
 console.log("\n\n\n  - multiplyByFive:")
 multiplyByFive(myNumbers1);     console.log(myNumbers1)
@@ -211,10 +211,10 @@ TextFormat.printNewLines(3)
 TextFormat.addText("  - removeVowelsAndDetermineString:   ").colorText(15).colorBackground(88).broadcast()
 TextFormat.addText("").colorBackground(255).extend(63).broadcast()
 TextFormat.addText("   "+rvads1[0],232,255).extend(3).broadcast()
-TextFormat.addText("   \t"+rvads1[1],232,255).extend(33).broadcast()
+TextFormat.addText("        "+rvads1[1],232,255).extend(33).broadcast()
 TextFormat.addText("").colorBackground(255).extend(63).broadcast()
 TextFormat.addText("   "+rvads2[0],232,255).extend(3).broadcast()
-TextFormat.addText("   \t"+rvads2[1],232,255).extend(33).broadcast()
+TextFormat.addText("        "+rvads2[1],232,255).extend(33).broadcast()
 TextFormat.addText("").colorBackground(255).extend(63).broadcast()
 // console.log("\n\n\n  - removeVowelsAndDetermineString:")
 // console.log(removeVowelsAndDetermineString(notAString1))
